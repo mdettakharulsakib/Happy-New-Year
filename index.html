@@ -64,11 +64,15 @@
             background-repeat: no-repeat;
             background-size: cover;
             border-radius: 5px;
+            
         }
         .group70{
-            float: right;
+            
             margin-right: 150px;
-            margin-top: 50px;
+            margin-top: 52px;
+            
+            
+            
             
             
             
@@ -88,11 +92,13 @@
             background: none; 
             border: none;
             cursor: pointer;
+            transition: 0.1s;
+            font-family: Arial;
         }
         .Button_vector:hover{
             background: red;
             border-radius: 5px;
-            
+            transform: scale(1.1, 1.1);
         }
         .red_letter{
             color: red;
@@ -243,6 +249,10 @@
             background: rgb(255, 12, 12);
             transform: scale(1,1.1);
         }
+        .Flexuse{
+            display: flex;
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body>
@@ -262,12 +272,15 @@
         </span>
     </section>
     <section class="vectorr">
-        <div>
-            <img class="group70" src="./resources/Group 70.png" alt="Loading">
+        <div class="Flexuse">
+            
             <div class="vector-text">
                 <h1 style="font-size: 72px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Welcome to <br> midnight party</h1>
                 <p style="font-size: 12px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: 100; margin-bottom: 30px;">It's a request to all party members, please accept our hospitality and may give a site on our portfolio. Again we are <br> <br> requesting that all the invited members should be respectful to others. Thank you </p>
                 <button class="Button_vector">JOIN NOW</button>
+            </div>
+            <div>
+                <img class="group70" src="./resources/Group 70.png" alt="Loading">
             </div>
         </div>
     </section>
